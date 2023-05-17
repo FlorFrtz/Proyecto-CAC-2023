@@ -56,8 +56,12 @@ li:hover{
 /*BODY*/
 
 
+body{
+    background-image: url("/img/body.png");
+}  
 .contenedor {
-	width: 90%;
+  
+    width: 90%;
 	max-width: 1200px;
 	margin: auto;
 	padding: 40px 0;
@@ -130,6 +134,16 @@ li:hover{
 }
 
 
+.promos{
+    border-color: cornflowerblue;
+    width: 90%;
+	min-height: 100px;
+	padding: 100px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	display: flex;  
+}
 
 
 
