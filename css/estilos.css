@@ -73,7 +73,10 @@ body{
 	gap: 20px;
 }
 
-
+#mapa{
+    height: 500px;
+    width: 100%;
+}
 
 .contenedor-excursiones {
 

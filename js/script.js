@@ -1,3 +1,16 @@
+function iniciarMapa (){
+  let coord= {lat:-34.6037389 , lng:-58.3841453};
+  let = new google.mpas.Map(document.getElementById("map"),{
+    zoom:10,
+    center:coord
+  });
+  let marker=new google.maps.Marker({
+    position:coord,
+    map:map
+  });  
+}
+
+
 
 var form = document.getElementById("formContacto");
 debugger;
