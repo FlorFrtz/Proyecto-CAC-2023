@@ -78,6 +78,10 @@ body{
     width: 100%;
 }
 
+.contenedor-video{
+  margin-inline: 30%;
+}
+
 .contenedor-excursiones {
 
 	/* Grid */
