@@ -84,18 +84,6 @@ body{
 	gap: 20px;
 }
 
-.promos {
-    
-    width:20%;
-    padding: 30px;
-
-
-	/* Grid */
-	display: grid;
-	grid-template-rows: auto auto auto;
-	align-items: center;
-}
-
 
 
 .excursion {
@@ -108,10 +96,6 @@ body{
 	background-size: cover;
 	background-position: center center;
 
-}
-
-.excursion {
-	height: 100%;
 
 
 	/* Grid */
@@ -135,14 +119,13 @@ body{
 
 
 .promos{
-    border-color: cornflowerblue;
-    width: 90%;
+    width: 600px;
 	min-height: 100px;
-	padding: 100px;
+	padding: 40px;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
-	display: flex;  
+	display: inline;  
 }
 
 h3,.t3{
