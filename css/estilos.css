@@ -73,10 +73,6 @@ body{
 	gap: 20px;
 }
 
-#mapa{
-    height: 500px;
-    width: 100%;
-}
 
 .contenedor-video{
   margin-inline: 30%;
@@ -91,11 +87,9 @@ body{
 }
 
 .promos {
-	size: 50%;
-	text-align: center;
-	padding: 20px;
-	background-size: cover;
-	background-position: center center;
+    width:20%;
+    padding: 30px;
+    
 
 
 	/* Grid */
