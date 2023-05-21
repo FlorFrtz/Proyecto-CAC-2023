@@ -75,7 +75,6 @@ h2{
     font-family:  'Ysabeau', sans-serif;
     font-size: xx-large;
     font-weight: 1500;
-
 }
 
 .p0{
@@ -85,6 +84,7 @@ h2{
     text-align: justify;
     transition: cubic-bezier(0.19, 1, 0.22, 1);
 }
+
 .video{
   position: relative;  
   margin-inline: 30%;
@@ -99,7 +99,11 @@ h2{
 	gap: 20px;
 }
 
-
+/*.excursion:hover{
+    width:25px;
+    border: 2px solid white;
+    transition: all 0.2s;
+}*/
 
 .excursion {
 	border-radius: 10px;
@@ -150,7 +154,15 @@ h2{
     transition: all 0.2s;
 }
 
-h3,.t3{
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 170%;
+    text-align: center;
+    color: #01056cfb;
+    margin: 20px;
+}
+
+.t3{
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
     color: #01056cfb;
@@ -185,11 +197,7 @@ p{
 }
 
 
-/*.excursion:hover{
-    width:25px;
-    border: 2px solid white;
-    transition: all 0.2s;
-}*/
+
 
 
 /*FOOTER*/
