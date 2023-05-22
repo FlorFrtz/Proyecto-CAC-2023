@@ -29,12 +29,14 @@ header{
     font-weight: bold;
     font-size: x-large;
     font-family: 'Kaushan Script', cursive;
+   
 }
 
 
 li{
     list-style: none;
     padding: 20px;
+   
 }
 
 
@@ -165,6 +167,7 @@ h3{
 .t3{
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
+    text-align: left;
     color: #01056cfb;
     margin: 20px;
 }
