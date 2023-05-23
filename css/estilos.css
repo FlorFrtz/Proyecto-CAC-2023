@@ -112,7 +112,7 @@ h2{
 	display: grid;
 	grid-template-columns: repeat(2, 2fr);
 	gap: 20px;
-    margin: 20px;
+    margin: 30px;
 }
 
 .excursion:hover{
