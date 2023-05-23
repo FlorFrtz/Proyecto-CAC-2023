@@ -101,16 +101,18 @@ h2{
 	gap: 20px;
 }
 
-/*.excursion:hover{
-    width:25px;
-    border: 2px solid white;
+.excursion:hover{
+    box-sizing: initial;
+    background-color: #5d8aa8;
+    border: 10px solid white;
     transition: all 0.2s;
-}*/
+}
 
 .excursion {
 	border-radius: 10px;
 	min-height: 200px;
 	font-weight: bold;
+    margin: 10px;
 	padding: 20px;
 	position: relative;
 	overflow: hidden;
@@ -125,13 +127,13 @@ h2{
 }
 
 .boton {
-	background: #7ab4e1;
+	background: #b5d7f2;
 	display: block;
 	width: 100%;
 	font-weight: bold;
 	font-size: 14px;
 	text-align: center;
-	padding: 10px;
+	padding: 5px;
 	border: none;
 	border-radius: 100px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -159,9 +161,9 @@ h2{
 h3{
     font-family: 'Dancing Script', cursive;
     font-size: 170%;
-    text-align: center;
-    color: #01056cfb;
-    margin: 20px;
+    text-align: left;
+    color: white;
+    margin: 0px;
 }
 
 .t3{
@@ -176,8 +178,8 @@ p{
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: large;
-    color: rgb(28, 85, 199);
-    text-align: right;
+    color: rgb(237, 239, 243);
+    text-align: left;
 }
 
 .p1{
@@ -233,6 +235,12 @@ footer{
 .p3{
     font-family: 'Dancing Script', cursive;
     font-size: 23px;
+}
+
+.p4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: rgb(47, 119, 237);
 }
 
 form{
