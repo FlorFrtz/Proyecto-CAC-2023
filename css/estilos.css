@@ -88,9 +88,9 @@ h2{
 }
 
 .video{
-  position: relative;  
-  margin-inline: 30%;
-  margin-left: 10px;
+    position: relative;  
+    margin-inline: 30%;
+    margin-left: 10px;
 }
 
 .Ulist2{ 
@@ -217,11 +217,17 @@ p{
 	padding: 40px 0;
 }
 
-.form{
-    font-family: cursive;
+#formContacto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+#form-button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px;
+    margin: 25px;
+}
 
 
 
