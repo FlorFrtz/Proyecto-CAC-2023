@@ -87,10 +87,11 @@ h2{
 }
 
 .video{
-  position: relative;  
-  display: flex;
-  margin-inline: 30%;
-  margin-left: 10px;
+    position: relative;  
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 30%;
+    margin-left: 10px;
 }
 
 .Ulist2{ 
@@ -192,6 +193,7 @@ p{
 
 .promos{
     display: flex;
+    flex-wrap: wrap;
     width: 600px;
 	min-height: 100px;
 	padding: 40px;
