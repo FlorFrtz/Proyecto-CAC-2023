@@ -218,11 +218,16 @@ p{
 	padding: 40px 0;
 }
 
-.form{
-    font-family: cursive;
+#formContacto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+#form-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 30px;
+}
 
 
 
