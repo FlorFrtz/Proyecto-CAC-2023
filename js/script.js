@@ -2,7 +2,6 @@
 
 
 let form = document.getElementById("formContacto");
-debugger;
 async function handleSubmit(event) {
   event.preventDefault();
   let status = document.getElementById("formContacto-status");
