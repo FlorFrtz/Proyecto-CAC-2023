@@ -312,7 +312,7 @@ h4{
     .t3{
         text-align: center;
     }
-    #formContacto{
+    form{
         transform: translate(50%);
     }
 }
