@@ -312,6 +312,9 @@ h4{
     .t3{
         text-align: center;
     }
+    #formContacto{
+        transform: translate(50%);
+    }
 }
 
 @media screen and (max-width: 600px) {
