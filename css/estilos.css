@@ -60,7 +60,6 @@ body{
 }  
 
 .contenedor{
-  
     width: 90%;
 	max-width: 1200px;
 	margin: auto;
@@ -68,8 +67,12 @@ body{
 
 	/* Grid */
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 20px;
+}
+
+.espacio {
+    display: none;
 }
 
 h2{
@@ -111,9 +114,9 @@ h2{
 
 	/* Grid */
 	display: grid;
-	grid-template-columns: repeat(2, 2fr);
+	grid-template-columns: 1fr 1fr;
 	gap: 20px;
-    margin: 30px;
+    margin: 30px; 
 }
 
 .excursion:hover{
@@ -293,7 +296,26 @@ h4{
 }
 
 @media screen and (max-width: 700px) {
-	
+	.promos{
+        width: 90%;
+    }
+    .contenedor{
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 1fr;
+    }
+    .contenedor-excursiones{
+        grid-template-columns: 1fr;
+    }
+    .video{
+        width: 85%;
+        height: 100%;
+        left: 50%;
+        transform: translate(-53%);
+    }
+    .t3{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
