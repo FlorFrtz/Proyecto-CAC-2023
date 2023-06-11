@@ -1,6 +1,5 @@
 
 
-
 var form = document.getElementById("formContacto");
 
 async function handleSubmit(event) {
