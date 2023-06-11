@@ -7,7 +7,6 @@ async function handleSubmit(event) {
   event.preventDefault();
   let data = new FormData(event.target);
   let status   = document.getElementById("formContacto-status");
-  alert('La concha de la lora no lo toma');
   //Validación de datos del formulario
   let correo   = document.getElementById('email');
   let nombre   = document.getElementById('nombre');
