@@ -1,5 +1,6 @@
 
 
+
 var form = document.getElementById("formContacto");
 
 async function handleSubmit(event) {
@@ -10,26 +11,27 @@ async function handleSubmit(event) {
   let correo   = document.getElementById('email');
   let nombre   = document.getElementById('nombre');
   let apellido = document.getElementById('apellido');
+  let celular  = document.getElementById('celular');
   let validacionCorreo = /^[\w\.-]+@[\w\.-]+\.\w{2,4}$/gm;
-  let validacionNomApe = /^([a-zA-Z ]){2,30}$/gm;
-  let validacionTel    = /^\s*(?:\+?(\d{1,3}))?([-. (]*(\d{1,3})[-. )]*)?((\d{1,3})[-. ]*(\d{2,4})(?:[-. ]*(\d+))?)\s*$/gm;
+  let validacionNom    = /^([a-zA-Z ]){2,30}$/gm;
+  let validacionApe    = /^([a-zA-Z ]){2,30}$/gm;
+  let validacionTel    = /^\+?([- (]*(\d{1,20}))$/gm;
   if( !validacionCorreo.test(correo.value) ){
     status.innerHTML = 'No se pudo validar el correo.';
     die;
   }
-  if( !validacionNomApe.test(nombre.value) ){
+  if( !validacionNom.test(nombre.value) ){
     status.innerHTML = 'No se pudo validar el nombre.';
     die;
   }
-  if( !validacionNomApe.test(apellido.value) ){
+  if( !validacionApe.test(apellido.value) ){
     status.innerHTML = 'No se pudo validar el apellido.';
     die;
   }
-  if( !validacionTel.test(apellido.value) ){
+  if( !validacionTel.test(celular.value) ){
     status.innerHTML = 'No se pudo validar el teléfono.';
     die;
   }
-
 
   fetch(event.target.action, {
     method: form.method,
@@ -42,16 +44,7 @@ async function handleSubmit(event) {
       status.innerHTML = "Gracias por contactarte con nosotros!";
       form.reset()
     } else {
-      
-      /*
-        response.json().then(data => {
-          if (Object.hasOwn(data, 'errors')) {
-            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-          } else {
-            status.innerHTML = "Hubo un problema al enviar el formulario."
-          }
-        })
-        */
+      status.innerHTML = "Hubo un problema al enviar el formulario."
     }
   }).catch(error => {
     status.innerHTML = "Hubo un problema al enviar el formulario."
